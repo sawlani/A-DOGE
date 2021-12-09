@@ -1,0 +1,62 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+.alert {
+  background-color: #D5F5E3;
+  border: 1px solid;
+  border-color: #2ECC71;
+  color: #2C7635;
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.alert a {
+  color: #2C7635;
+}
+
+.header {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.title {
+  display: inline;
+  line-height: 75px;
+  margin-left: 1rem;
+  vertical-align: top;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.subtitle {
+  margin-top: 1rem;
+}
+
+.summary {
+  color: #333;
+  font-size: 2rem;
+  margin: 2rem auto;
+  text-align: left;
+  width: 65%;
+}
+
+@media (max-width:481px) {
+  .summary {
+    width: 80%;
+  }
+}
+
+.code-links {
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.footer {
+  color: #999;
+  font-size: 1.5rem;
+  text-align: center;
+}
